@@ -17,14 +17,14 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/caronas',
+        redirectTo: '/tabs/caronas',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/caronas',
+    redirectTo: '/tabs/caronas',
     pathMatch: 'full'
   }
 ];
