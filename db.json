@@ -1,0 +1,34 @@
+{
+  "caronas": [
+    {
+      "id": 1,
+      "name": "Leonardo",
+      "cidade": "Estância Velha",
+      "vagasRestantes": 4
+    },
+    {
+      "id": 2,
+      "name": "Gabriel",
+      "cidade": "Novo Hamburgo",
+      "vagasRestantes": 3
+    },
+    {
+      "id": 3,
+      "name": "Carol",
+      "cidade": "Estância Velha",
+      "vagasRestantes": 1
+    },
+    {
+      "id": 4,
+      "name": "Vivi",
+      "cidade": "Canoas",
+      "vagasRestantes": 2
+    },
+    {
+      "id": 5,
+      "name": "Camila",
+      "cidade": "Porto Alegre",
+      "vagasRestantes": 2
+    }
+  ]
+}
