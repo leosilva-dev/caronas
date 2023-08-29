@@ -3,32 +3,42 @@
     {
       "id": 1,
       "name": "Leonardo",
+      "setor": "Desenvolvimento",
       "cidade": "Estância Velha",
-      "vagasRestantes": 4
+      "vagasRestantes": 4,
+      "phone": "5551982780368"
     },
     {
       "id": 2,
       "name": "Gabriel",
+      "setor": "Desenvolvimento",
       "cidade": "Novo Hamburgo",
-      "vagasRestantes": 3
+      "vagasRestantes": 3,
+      "phone": "5551982780368"
     },
     {
       "id": 3,
       "name": "Carol",
+      "setor": "Consultoria",
       "cidade": "Estância Velha",
-      "vagasRestantes": 1
+      "vagasRestantes": 1,
+      "phone": "5551982780368"
     },
     {
       "id": 4,
       "name": "Vivi",
+      "setor": "Marketing",
       "cidade": "Canoas",
-      "vagasRestantes": 2
+      "vagasRestantes": 2,
+      "phone": "5551982780368"
     },
     {
       "id": 5,
       "name": "Camila",
+      "setor": "RH",
       "cidade": "Porto Alegre",
-      "vagasRestantes": 2
+      "vagasRestantes": 2,
+      "phone": "5551982780368"
     }
   ]
 }
