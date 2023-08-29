@@ -11,5 +11,9 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Caronas page"></app-explore-container>
+  <ul>
+    <li *ngFor="let carona of caronas">
+      Nome: {{ carona.name }} - {{ carona.cidade }}
+    </li>
+  </ul>
 </ion-content>
