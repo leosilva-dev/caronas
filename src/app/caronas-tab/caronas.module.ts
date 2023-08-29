@@ -5,14 +5,15 @@ import { FormsModule } from '@angular/forms';
 import { CaronasPage } from './caronas.page';
 
 import { CaronasPageRoutingModule } from './caronas-routing.module';
+import { CardCaronaComponent } from '../card-carona/card-carona.component';
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
-    CaronasPageRoutingModule
+    CaronasPageRoutingModule,
   ],
-  declarations: [CaronasPage]
+  declarations: [CaronasPage, CardCaronaComponent]
 })
 export class CaronasPageModule {}

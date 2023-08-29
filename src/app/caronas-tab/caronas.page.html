@@ -10,10 +10,7 @@
       <ion-title size="large">Caronas</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <ul>
-    <li *ngFor="let carona of caronas">
-      Nome: {{ carona.name }} - {{ carona.cidade }}
-    </li>
-  </ul>
+  <div *ngFor="let carona of caronas">
+    <app-card-carona [carona]="carona"></app-card-carona>
+  </div>
 </ion-content>
