@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { CaronasPage } from './caronas.page';
-import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
 import { CaronasPageRoutingModule } from './caronas-routing.module';
 
@@ -12,7 +11,6 @@ import { CaronasPageRoutingModule } from './caronas-routing.module';
     IonicModule,
     CommonModule,
     FormsModule,
-    ExploreContainerComponentModule,
     CaronasPageRoutingModule
   ],
   declarations: [CaronasPage]
