@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'perfil',
@@ -7,6 +8,10 @@ import { Component } from '@angular/core';
 })
 export class PerfilPage {
 
-  constructor() {}
+  constructor(private router: Router) {}
+
+  sair(){
+    this.router.navigate(['/']);
+  }
 
 }
