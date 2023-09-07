@@ -20,7 +20,7 @@ export class CaronasPage implements OnInit {
   }
 
   getCaronas(): void{
-    this.caronasService.getAll().subscribe(caronas => this.caronas = caronas);
+    this.caronasService.getAll().subscribe(caronas => this.caronas = caronas.filter(carona => carona.ofereceCarona));
   }
 
 }
