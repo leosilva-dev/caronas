@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Leonardo",
+      "ofereceCarona": true,
       "setor": "Desenvolvimento",
       "cidade": "Estância Velha",
       "vagasRestantes": 4,
@@ -11,6 +12,7 @@
     {
       "id": 2,
       "name": "Gabriel",
+      "ofereceCarona": true,
       "setor": "Desenvolvimento",
       "cidade": "Novo Hamburgo",
       "vagasRestantes": 3,
@@ -19,6 +21,7 @@
     {
       "id": 3,
       "name": "Carol",
+      "ofereceCarona": true,
       "setor": "Consultoria",
       "cidade": "Estância Velha",
       "vagasRestantes": 1,
@@ -27,6 +30,7 @@
     {
       "id": 4,
       "name": "Vivi",
+      "ofereceCarona": true,
       "setor": "Marketing",
       "cidade": "Canoas",
       "vagasRestantes": 2,
@@ -35,6 +39,7 @@
     {
       "id": 5,
       "name": "Camila",
+      "ofereceCarona": true,
       "setor": "RH",
       "cidade": "Porto Alegre",
       "vagasRestantes": 2,
