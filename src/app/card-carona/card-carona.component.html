@@ -12,4 +12,11 @@
   <ion-button fill="clear" *ngIf="carona" (click)="abrirWhatsApp(carona.phone)"
     >Conversar</ion-button
   >
+  <ion-button
+    fill="clear"
+    *ngIf="carona"
+    (click)="showInterest(carona.id)"
+    [disabled]="!carona.vagasRestantes"
+    >Tenho interesse</ion-button
+  >
 </ion-card>
