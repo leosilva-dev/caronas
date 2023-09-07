@@ -10,8 +10,77 @@
       <ion-title size="large">Perfil</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Configurações</ion-card-title>
+    </ion-card-header>
 
-  <ion-footer>
-    <ion-button expand="full" (click)="sair()">Sair</ion-button>
-  </ion-footer>
+    <ion-card-content>
+      <ion-toggle [(ngModel)]="ofereceCarona" (click)="handleToggleCarona()"
+        >Desejo oferecer carona?</ion-toggle
+      >
+      <ion-input
+        class="margin-top-2"
+        type="text"
+        label="Nome"
+        label-placement="floating"
+        fill="outline"
+        [(ngModel)]="nome"
+        [disabled]="!ofereceCarona"
+      ></ion-input>
+      <ion-input
+        class="margin-top-2"
+        type="text"
+        label="Setor"
+        label-placement="floating"
+        fill="outline"
+        [(ngModel)]="setor"
+        [disabled]="!ofereceCarona"
+      ></ion-input>
+      <ion-input
+        class="margin-top-2"
+        type="text"
+        label="Cidade de saída"
+        label-placement="floating"
+        fill="outline"
+        [(ngModel)]="cidadeSaida"
+        [disabled]="!ofereceCarona"
+      ></ion-input>
+      <ion-input
+        class="margin-top-2"
+        type="number"
+        label="Número de vagas"
+        label-placement="floating"
+        fill="outline"
+        [(ngModel)]="numeroVagas"
+        max="4"
+        min="1"
+        [disabled]="!ofereceCarona"
+      ></ion-input>
+      <ion-input
+        class="margin-top-2"
+        type="text"
+        label="Telefone"
+        label-placement="floating"
+        fill="outline"
+        [(ngModel)]="telefone"
+        [disabled]="!ofereceCarona"
+      ></ion-input>
+      <ion-button
+        class="margin-top-2"
+        expand="block"
+        (click)="salvar()"
+        [disabled]="!ofereceCarona"
+        >Salvar</ion-button
+      >
+    </ion-card-content>
+  </ion-card>
+  <ion-button
+    class="button-logout"
+    expand="block"
+    fill="outline"
+    color="danger"
+    (click)="sair()"
+    >Sair da minha conta</ion-button
+  >
 </ion-content>
