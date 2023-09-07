@@ -16,6 +16,10 @@ const routes: Routes = [
         loadChildren: () => import('../perfil-tab/perfil.module').then(m => m.PerfilPageModule)
       },
       {
+        path: 'map',
+        loadChildren: () => import('../map-tab/map.module').then(m => m.MapPageModule)
+      },
+      {
         path: '',
         redirectTo: 'caronas',
         pathMatch: 'full'
