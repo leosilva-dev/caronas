@@ -12,11 +12,11 @@
     {
       "id": 2,
       "name": "Gabriel",
-      "ofereceCarona": true,
-      "setor": "Desenvolvimento",
       "cidade": "Novo Hamburgo",
-      "vagasRestantes": 3,
-      "phone": "5551982780368"
+      "ofereceCarona": true,
+      "phone": "5551982780368",
+      "setor": "Desenvolvimento",
+      "vagasRestantes": 0
     },
     {
       "id": 3,
