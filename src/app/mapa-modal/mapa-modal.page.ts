@@ -11,7 +11,8 @@ import * as Leaflet from 'leaflet';
 
 export class MapaModalPage implements OnInit {
 
-  endereco: string = '';
+  lat: string = '';
+  long: string = '';
   map: Leaflet.Map;
 
   constructor(private navParams: NavParams, private modalController: ModalController) {
@@ -19,18 +20,19 @@ export class MapaModalPage implements OnInit {
    }
 
   ngOnInit(){
-    this.endereco = this.navParams.get('endereco');
+    this.lat = this.navParams.get('lat');
+    this.long = this.navParams.get('long');
   }
 
   ngAfterViewInit(){
-    this.initializeMap();
+    this.initializeMap(this.lat, this.long);
   }
 
   onShowEvent(){
     this.map.invalidateSize();
   }
 
-  initializeMap() {
+  initializeMap(lat: string, long: string) {
     this.map = Leaflet.map('map').setView([51.505, -0.09], 13); // Configurar a localização e o zoom inicial
 
     Leaflet.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -39,9 +41,9 @@ export class MapaModalPage implements OnInit {
     }).addTo(this.map);
 
     // Adicionar um marcador de exemplo
-    Leaflet.marker([51.5, -0.09])
+    Leaflet.marker([parseFloat(lat), parseFloat(long)])
     .addTo(this.map)
-    .bindPopup('')
+    .bindPopup('Carona')
     .openPopup();
 
     window.dispatchEvent(new Event('resize')); 
