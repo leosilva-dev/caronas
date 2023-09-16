@@ -28,11 +28,12 @@ export class CardCaronaComponent{
     }
   }
 
-  async abrirMapa(endereco: string) {
+  async abrirMapa(lat: string, long:string) {
     const modal = await this.modalController.create({
       component: MapaModalPage,
       componentProps: {
-        endereco
+        lat,
+        long
       }
     });
     return await modal.present();

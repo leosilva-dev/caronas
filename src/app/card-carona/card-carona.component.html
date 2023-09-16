@@ -2,7 +2,7 @@
   <ion-card-header>
     <ion-card-title>{{ carona?.name }} </ion-card-title>
     <ion-card-subtitle>setor: {{ carona?.setor }}</ion-card-subtitle>
-    <a href="javascript:void(0);" (click)="abrirMapa(carona?.cidade!)">
+    <a href="javascript:void(0);" (click)="abrirMapa(carona?.lat!, carona?.long!)">
       <ion-icon class="mapa-card" name="location-outline"></ion-icon>
     </a>
   </ion-card-header>

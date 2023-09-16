@@ -5,6 +5,8 @@
       "name": "Leonardo",
       "ofereceCarona": true,
       "setor": "Desenvolvimento",
+      "lat": -29.657261058427274,
+      "long": -51.187262295252815,
       "cidade": "Estância Velha",
       "vagasRestantes": 4,
       "phone": "5551982780368"
@@ -12,6 +14,8 @@
     {
       "id": 2,
       "name": "Gabriel",
+      "lat": -29.685732921304886,
+      "long": -51.133477883759795,
       "cidade": "Novo Hamburgo",
       "ofereceCarona": true,
       "phone": "5551982780368",
@@ -23,6 +27,8 @@
       "name": "Carol",
       "ofereceCarona": true,
       "setor": "Consultoria",
+      "lat": -29.655976289901464, 
+      "long": -51.18509837987513,
       "cidade": "Estância Velha",
       "vagasRestantes": 1,
       "phone": "5551982780368"
@@ -32,6 +38,8 @@
       "name": "Vivi",
       "ofereceCarona": true,
       "setor": "Marketing",
+      "lat": -29.921715145551573,
+      "long": -51.178191070026315,
       "cidade": "Canoas",
       "vagasRestantes": 2,
       "phone": "5551982780368"
@@ -41,6 +49,8 @@
       "name": "Camila",
       "ofereceCarona": true,
       "setor": "RH",
+      "lat": -30.028599641873267,
+      "long": -51.23116738364052,
       "cidade": "Porto Alegre",
       "vagasRestantes": 2,
       "phone": "5551982780368"

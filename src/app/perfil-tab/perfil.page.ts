@@ -10,6 +10,8 @@ import { CaronasService } from '../caronas.service';
 })
 export class PerfilPage {
   nome: string = '';
+  lat: string = '';
+  long: string = '';
   cidadeSaida: string = '';
   setor: string = '';
   telefone: string = '';
@@ -22,6 +24,8 @@ export class PerfilPage {
     this.caronasService.createCarona({
       id: 0,
       name: this.nome,
+      lat: this.lat,
+      long: this.long,
       cidade:this.cidadeSaida,
       ofereceCarona: this.ofereceCarona,
       phone: this.telefone,
